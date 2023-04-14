@@ -30,6 +30,9 @@ margin: 40px 0;
 .logo{
   margin: 30px 0;
 }
+.logo:hover{
+  transform:scale(1.1);
+}
 
 .nav-link:hover{
   color: black;
@@ -60,10 +63,13 @@ margin: 40px 0;
   padding:30px ;
   position:relative;
   left:60px;
-  top: -400px;
+  top: -350px;
   color: white;
+  font-size: 1.5rem;
  
-
+}
+.text-slider p{
+  font-size: 1.2rem;
 }
 span{
   color:lightskyblue;
@@ -77,6 +83,9 @@ span{
   margin: 50px;
   border-radius: 10px;
   font-size: medium;
+}
+.button:hover{
+  transform:scale(1.1);
 }
 @keyframes slider {
   0%{
@@ -107,6 +116,7 @@ justify-content: center;
 /*  DEBUT SECTION SERVICES*/
 h2{
   margin: -250px 0 0 0;
+  font-size:2rem;
 
 }
 .hr-circle {
@@ -118,7 +128,7 @@ h2{
   margin:1rem 42rem;
 }
 .separator1{
-  margin:1rem 36rem;
+  margin:1rem 38rem;
 
 }
 .hr-circle hr{
@@ -155,9 +165,12 @@ h4{
 .icon1 , .icon2 , .icon3{
   margin-right:20px;
   margin-top:10px;
+  padding:0 20px;
 }
-  
- 
+.paragraphe-2 p{
+  font-size: 1.2rem;
+} 
+
 
 /*  fin SECTION SERVICES*/
 /*  DEBUT SECTION NOS PROJETS*/
@@ -170,15 +183,21 @@ h4{
   margin:0 20px;
 }
 .projet1{
- display: inline;
+ display:inline;
  padding: 0 20rem;
- font-size: 1rem;
+ font-size: 1.1rem;
+
+
 }
 .btn-group{
   display:flex;
   padding: 0 30rem;
   margin:0 50px;
   
+}
+.btn-group :hover{
+  background-color:#6b9bed;
+  color:white;
 }
 
 .btn1 , .btn2 , .btn3 , .btn4{
@@ -206,6 +225,27 @@ h4{
   column-gap: 20px;
  justify-content: center;
 }
+.text-hover{
+
+  top: 50%; transform: translateY(-190%);
+  left:30%;
+  font-size: 2rem;
+  background:rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+  width: 80%;
+  text-align: center;
+  padding:15px;
+  margin:0 20px;
+}
+
+.text-hover a {
+  text-decoration:none;
+  color:white;
+}
+.text-hover i{
+  margin:0 120px;
+  margin-top:-35px;
+}
   
 /* Fin section NOS PROJETS    */ 
 
@@ -220,6 +260,7 @@ iframe{
 .btn{
   background-color:blue;
   color: white;
+  border-radius: 5px;
   
 }
 .btn:hover{
@@ -228,20 +269,35 @@ iframe{
 }
 .container3{
 
-  padding: 50px 70px;
+  padding: 50px 60px;
   position: absolute;
   z-index: 2; /* place .boite-verte au-dessus de .boite-tirets */
   background:white;
   height:400px;
   width: 200px;
-  left:75%;
-  margin: 25px;
-  opacity: 0.7;
+  left:70%;
+  margin-top:35px;
+  opacity: 0.9;
   border-radius: 30px;
 }
 .assist{
   font-size: x-small;
   color: blue;
 
+}
+.info1{
+  font-size:1.3rem;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.info2{
+  font-size:1.5rem;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top:20px;
+  color:#3677e7 ;
+}
+.info3{
+  font-size:1rem;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top:20px;
 }
 
