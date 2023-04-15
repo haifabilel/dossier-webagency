@@ -24,7 +24,8 @@ margin: 40px 0;
   text-decoration:none;
   color: blue;
   margin: 30px;
-  text-align: center;
+  text-align: center;border-top: 2px solid transparent;
+  transition: padding-top 0.4s ease-in-out, border-color 0.3s ease;
  
 }
 .logo{
@@ -34,10 +35,13 @@ margin: 40px 0;
   transform:scale(1.1);
 }
 
-.nav-link:hover{
+.nav-item a:hover{
   color: black;
   font-size: larger;
   cursor:pointer;
+  padding-top:25px;
+  border-top-color:black;
+
 }
 
 #slider{
